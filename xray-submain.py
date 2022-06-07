@@ -16,7 +16,7 @@ def get_url():
     pattern = re.compile()
     for line in lines:
         try:
-            if not pattern.match(line.strip()):
+            if not pattern.match(line.strip(r'')):
                 targeturl="http://"+line.strip()
             else:
                 targeturl=line.strip()
