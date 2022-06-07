@@ -10,7 +10,7 @@ import re
 
 # 扫描
 def get_url():
-    f = open("xray_url.txt")
+    f = open("subdomain.txt")
     lines = f.readlines()
     # 匹配http | https请求头
     pattern = re.compile()
